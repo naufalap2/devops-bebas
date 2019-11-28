@@ -1,4 +1,4 @@
-- hosts: webserver
+- hosts: server
   tasks:
     - name: install python-docker
       yum:
